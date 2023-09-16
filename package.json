@@ -1,0 +1,19 @@
+{
+  "name": "rollup-issue-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "repro": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@web3-onboard/walletconnect": "^2.4.6",
+    "rollup": "^3.29.2"
+  },
+  "type": "module"
+}
